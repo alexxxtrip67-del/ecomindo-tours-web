@@ -1,0 +1,249 @@
+---
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoMindo Tours | Aventura en el bosque nuboso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ENCABEZADO Y NAVEGACIÓN -->
+  <header class="navbar">
+    <div class="logo-container">
+      <img src="/logo_horizontal.png" alt="EcoMindo Tours Logo" class="logo-header">
+    </div>
+    <nav class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#tours">Tours</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="#contacto" class="btn btn-primary nav-btn">Reserva ahora</a>
+  </header>
+
+  <main>
+    <!-- HERO / SECCIÓN PRINCIPAL -->
+    <section id="inicio" class="hero">
+      <div class="hero-overlay">
+        <h1>Vive la magia del bosque nuboso de Mindo</h1>
+        <p>Tours de aventura y naturaleza para quienes buscan algo más que un viaje: una conexión real con el Ecuador silvestre.</p>
+        <a href="#contacto" class="btn btn-accent">Reserva tu aventura</a>
+      </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="nosotros" class="about section">
+      <h2>Sobre nosotros</h2>
+      <p>EcoMindo Tours nació en 2019 de la mano de una familia mindense apasionada por su territorio. Desde entonces, guiamos a viajeros de todo el mundo por senderos, cascadas y bosques que aún conservan su equilibrio natural. Creemos en un turismo que cuida lo que muestra: por eso trabajamos junto a la comunidad local, contamos con guías certificados de la zona y reinvertimos parte de cada tour en proyectos de conservación del bosque nuboso.</p>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>+2.500</h3>
+          <p>viajeros guiados</p>
+        </div>
+        <div class="stat-card">
+          <h3>6</h3>
+          <p>rutas ecológicas</p>
+        </div>
+        <div class="stat-card">
+          <h3>100%</h3>
+          <p>guías locales certificados</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUESTROS TOURS -->
+    <section id="tours" class="tours section">
+      <h2>Nuestros Tours</h2>
+      <div class="tours-grid">
+        
+        <article class="tour-card">
+          <img src="/birdwatching.png" alt="Avistamiento de Aves">
+          <div class="tour-info">
+            <h3>Avistamiento de Aves</h3>
+            <p class="tour-subtitle">Colibríes y aves del bosque nuboso</p>
+            <p>Recorrido guiado al amanecer por senderos del bosque nuboso para observar colibríes y más de 50 especies de aves propias de Mindo, con binoculares incluidos.</p>
+            <div class="tour-meta">
+              <span><strong>Duración:</strong> 3 horas</span>
+              <span><strong>Dificultad:</strong> Fácil</span>
+              <span class="price"><strong>Precio ref.:</strong> $25 por persona</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <img src="/canopy.png" alt="Canopy y Tarabita">
+          <div class="tour-info">
+            <h3>Canopy y Tarabita</h3>
+            <p class="tour-subtitle">Aventura sobre el dosel del bosque</p>
+            <p>Diez líneas de cable sobre el dosel del bosque, con vistas panorámicas de las montañas de Mindo. Incluye equipo de seguridad certificado y guía especializado.</p>
+            <div class="tour-meta">
+              <span><strong>Duración:</strong> 1.5 horas</span>
+              <span><strong>Dificultad:</strong> Moderada</span>
+              <span class="price"><strong>Precio ref.:</strong> $20 por persona</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <img src="/waterfall.png" alt="Cascadas del Nambillo">
+          <div class="tour-info">
+            <h3>Cascadas del Nambillo</h3>
+            <p class="tour-subtitle">Senderismo y piscinas naturales</p>
+            <p>Caminata por senderos ecológicos hasta un conjunto de cascadas con piscinas naturales, ideal para refrescarse y disfrutar del sonido del bosque.</p>
+            <div class="tour-meta">
+              <span><strong>Duración:</strong> 4 horas</span>
+              <span><strong>Dificultad:</strong> Moderada</span>
+              <span class="price"><strong>Precio ref.:</strong> $18 por persona</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <img src="/butterfly.png" alt="Mariposario Comunitario">
+          <div class="tour-info">
+            <h3>Mariposario Comunitario</h3>
+            <p class="tour-subtitle">Conservación y educación ambiental</p>
+            <p>Visita a un mariposario gestionado por la comunidad local, con explicación sobre el ciclo de vida de las mariposas y proyectos de conservación.</p>
+            <div class="tour-meta">
+              <span><strong>Duración:</strong> 1 hora</span>
+              <span><strong>Dificultad:</strong> Fácil</span>
+              <span class="price"><strong>Precio ref.:</strong> $8 por persona</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="tour-card">
+          <img src="/chocolate.png" alt="Ruta del Chocolate">
+          <div class="tour-info">
+            <h3>Ruta del Chocolate</h3>
+            <p class="tour-subtitle">Agroturismo y cacao de origen Mindo</p>
+            <p>Recorrido por una finca cacaotera familiar: cosecha, fermentación, tostado y degustación de chocolate artesanal de origen 100% ecuatoriano.</p>
+            <div class="tour-meta">
+              <span><strong>Duración:</strong> 2 horas</span>
+              <span><strong>Dificultad:</strong> Fácil</span>
+              <span class="price"><strong>Precio ref.:</strong> $15 por persona</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- POR QUÉ ELEGIRNOS -->
+    <section class="why-us section">
+      <h2>¿Por qué elegirnos?</h2>
+      <ul class="why-list">
+        <li>Guías locales certificados, con años de experiencia en el bosque nuboso.</li>
+        <li>Turismo responsable: grupos pequeños (máximo 10 personas) para reducir el impacto ambiental.</li>
+        <li>Equipo de seguridad certificado internacionalmente en todas las actividades de aventura.</li>
+        <li>Parte de cada reserva se reinvierte en proyectos de conservación local.</li>
+      </ul>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonios" class="testimonials section">
+      <h2>Testimonios</h2>
+      <div class="testimonials-grid">
+        <blockquote>
+          <p>"Una experiencia que cambió mi forma de ver el ecoturismo. Los guías conocen cada rincón del bosque."</p>
+          <cite>— Laura M., España</cite>
+        </blockquote>
+        <blockquote>
+          <p>"El canopy fue increíble y sentí que estábamos en manos seguras todo el tiempo."</p>
+          <cite>— Daniel R., Ecuador</cite>
+        </blockquote>
+        <blockquote>
+          <p>"Me encantó saber que parte de lo que pagamos apoya la conservación del bosque."</p>
+          <cite>— Grace K., Estados Unidos</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACTO / RESERVA -->
+    <section id="contacto" class="contact section">
+      <h2>Contacto y Reservas</h2>
+      <div class="contact-container">
+        
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Solicitud enviada con éxito');">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" required placeholder="Tu nombre">
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" required placeholder="tu@email.com">
+
+          <label for="phone">Teléfono</label>
+          <input type="tel" id="phone" required placeholder="+593 99 999 9999">
+
+          <label for="tour">Tour de interés</label>
+          <select id="tour" required>
+            <option value="">Selecciona un tour</option>
+            <option value="aves">Avistamiento de Aves</option>
+            <option value="canopy">Canopy y Tarabita</option>
+            <option value="cascadas">Cascadas del Nambillo</option>
+            <option value="mariposario">Mariposario Comunitario</option>
+            <option value="chocolate">Ruta del Chocolate</option>
+          </select>
+
+          <label for="date">Fecha tentativa</label>
+          <input type="date" id="date" required>
+
+          <label for="message">Mensaje</label>
+          <textarea id="message" rows="4" placeholder="¿Tienes alguna consulta extra?"></textarea>
+
+          <button type="submit" class="btn btn-primary">Enviar solicitud de reserva</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>Información de contacto</h3>
+          <p><strong>Dirección:</strong> Vía Mindo Km 2, Pichincha, Ecuador</p>
+          <p><strong>WhatsApp / Teléfono:</strong> +593 99 123 4567</p>
+          <p><strong>Correo:</strong> reservas@ecomindotours.ec</p>
+          <p><strong>Horario:</strong> Todos los días, 07h00 - 18h00</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="footer-brand">
+      <img src="/logo.png" alt="EcoMindo Tours Logo" class="logo-footer">
+      <p><em>"Aventura en el corazón del bosque nuboso"</em></p>
+    </div>
+    
+    <div class="social-links">
+      <a href="https://instagram.com/ecomindotours" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        <span>Instagram: @ecomindotours</span>
+      </a>
+      <a href="https://facebook.com/ecomindotours" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        <span>Facebook: /ecomindotours</span>
+      </a>
+    </div>
+
+    <div class="footer-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#tours">Tours</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <div class="footer-copy">
+      <p>&copy; 2026 EcoMindo Tours. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
